@@ -1,0 +1,30 @@
+/* Importação de fontes do Google Fonts: Orbitron e Playfair Display */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Playfair+Display:wght@600&display=swap');
+
+/* Estilização do cabeçalho principal */
+.header {
+  background-color: #1a1a1a; /* Fundo escuro para o cabeçalho */
+  padding: 20px 40px; /* Espaçamento interno nas laterais e vertical */
+  display: flex; /* Utiliza flexbox para alinhar os elementos */
+  justify-content: space-between; /* Espaço entre os elementos da esquerda e da direita */
+  align-items: center; /* Alinha os itens verticalmente ao centro */
+  border-bottom: 2px solid #8e44ad; /* Linha roxa na parte inferior */
+  font-family: 'Poppins', sans-serif; /* Fonte padrão usada no header */
+}
+
+/* Estilização da parte esquerda do cabeçalho (título) */
+.header-left {
+  color: #b388eb; /* Cor roxa clara para o texto */
+  font-size: 1.8rem; /* Tamanho grande da fonte */
+  font-weight: 600; /* Peso da fonte: semi-negrito */
+  font-family: 'Playfair Display', serif; /* Novo estilo elegante com fonte serifada */
+}
+
+/* Estilização da parte direita do cabeçalho (marca NASA) */
+.header-right {
+  color: #ffffff; /* Cor branca para o texto */
+  font-family: 'Orbitron', sans-serif; /* Fonte futurista com estilo tecnológico */
+  font-size: 1.6rem; /* Tamanho da fonte um pouco menor que o da esquerda */
+  font-weight: 700; /* Fonte em negrito */
+  letter-spacing: 1px; /*Espaçamento entre as letras para dar destaque */
+}
